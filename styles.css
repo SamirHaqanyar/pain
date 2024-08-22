@@ -1,0 +1,109 @@
+#logo {
+  /* Width is kept in layout.css */
+  height: auto;
+}
+
+.vertical {
+  background-color: #1f82c8;
+}
+
+.vertical li {
+  list-style: none;
+  padding: 10px;
+}
+
+.vertical a {
+  color: hsl(0, 0%, 96%);
+  text-decoration: none;
+}
+
+.horizontal {
+  background-color: rgb(18, 18, 74);
+}
+
+.row {
+  padding: 5px;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row a {
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+}
+
+main {
+  background-color: #ffffc5;
+}
+
+footer {
+  padding: 5px;
+  background-color: black;
+  color: white;
+}
+.pricing-aside {
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 20px;
+
+  background-color: lightgoldenrodyellow;
+}
+aside ul {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+aside p {
+  color: purple;
+}
+.tutoring-schedule {
+  width: 100%;
+}
+
+.tutoring-schedule th,
+.tutoring-schedule td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #000000;
+}
+
+.tutoring-schedule th {
+  background-color: #331a57;
+  color: white;
+}
+
+.tutoring-schedule tr:nth-child(odd) td {
+  background-color: #e7e5f3;
+}
+
+.tutoring-schedule tr:nth-child(even) td {
+  background-color: white;
+}
+
+.pricing-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pricing-table th,
+.pricing-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.pricing-table th {
+  background-color: #331a57;
+  color: white;
+}
+
+.pricing-table td {
+  background-color: white;
+}
+
+.pricing-table tr:nth-child(odd) td {
+  background-color: #e7e5f3;
+}
